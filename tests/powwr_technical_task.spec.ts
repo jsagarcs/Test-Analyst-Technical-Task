@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Cart quantity label matches sum quantities of items in cart.', async ({ page }) => {
+test('TC014 - Cart quantity label matches sum quantities of items in cart.', async ({ page }) => {
     
     /**
      * Prerequisite actions
