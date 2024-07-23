@@ -19,7 +19,11 @@ Expected Result:
 Playwright plan: 
 Navigate to page https://react-shopping-cart-67954.firebaseapp.com
 Add 3x of item1 and 2 of item2 to Cart
-    Item1 text: Cropped Stay Groovy off white
-    Item2 text: Basic Cactus White T-shirt
+    Item1 sc-124al1g-2 dwOYCh
+    Item2 sc-124al1g-2 bCLaRj
+Get quantity from label
+    label sc-1h98xa9-3 VLMSP
 open cart
-Store trolley quantity label value
+    button sc-1h98xa9-0 gFkyvN
+Sum quantities in cart
+    Description: sc-11uohgb-3 gKtloF (multiple)
