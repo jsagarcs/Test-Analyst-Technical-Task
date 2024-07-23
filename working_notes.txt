@@ -1,0 +1,25 @@
+Automation of TC014
+
+Description:
+The item quantity label attached to the trolley (cart) icon matches 
+the sum of the quantities of all items in the cart.
+
+Prereqs:
+1.	Shop page open.
+2.	Cart is open.
+3.	Items exist in the cart.
+
+Steps:
+1.	Sum the quantities of all items in the cart.
+2.	Compare the item count in the trolley icon label to the sum found in Step 1.
+
+Expected Result:
+•	The trolley icon label count is equal to the sum quantity of items in the cart.
+
+Playwright plan: 
+Navigate to page https://react-shopping-cart-67954.firebaseapp.com
+Add 3x of item1 and 2 of item2 to Cart
+    Item1 text: Cropped Stay Groovy off white
+    Item2 text: Basic Cactus White T-shirt
+open cart
+Store trolley quantity label value
