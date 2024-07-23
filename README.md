@@ -6,6 +6,9 @@ Test case TC014 is automated in playwright and can be run by following the instr
 
 Ensure node.js and npm are installed prior to running tests.
 
+Test Cases and documentation
+1) Open 'POWWR_Intern_Technical_Challenge.pdf'
+
 How to run tests:
 1) Clone the github repo at https://github.com/jsagarcs/POWWR-Technical-Task
 2) Open a terminal and navigate to the cloned repo.
